@@ -1,0 +1,23 @@
+[project]
+name = "shortlink-hub-backend"
+version = "1.0.0"
+description = "Branded Short-Link & Bio-Link Hub - FastAPI backend (Project 04)"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "sqlalchemy>=2.0",
+  "pydantic>=2.0",
+  "pydantic-settings>=2.0",
+  "pyjwt>=2.8",
+  "passlib[bcrypt]>=1.7.4",
+  "bcrypt>=4.1",
+  "python-multipart>=0.0.9",
+  "slowapi>=0.1.9",
+  "email-validator>=2.0",
+  "httpx>=0.27",
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
