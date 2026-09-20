@@ -1,10 +1,10 @@
-# Short-Link & Bio-Link Hub (Project 04)
+# Short-Link & Bio-Link Hub 
 
 A Bitly + Linktree hybrid: create branded short links with vanity slugs, track clicks
 (referrer, device, hashed IP), view dashboard charts, and run a public Link-in-Bio page.
 Built with **Python (FastAPI) + React (Vite)**.
 
-## Why this project (for a cybersecurity student)
+## Why this project 
 
 Short links are a classic phishing vector, so this project is full of real security work:
 - **JWT pair auth** (15-min access + 7-day refresh in `httpOnly` cookies, rotation)
